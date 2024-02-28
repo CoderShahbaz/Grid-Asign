@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body .container{
+    display: grid;
+    background-color:black;
+    width: 100vw;
+    height: 100vh;
+    /* padding: 30px; */
+    /* gap: 40px; */
+    grid-template-areas:
+    'header header header header header header'
+    'menu menu menu menu menu menu'
+    'box1 box1 box2 box2 sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'content content content content sidebar sidebar'
+    'footer footer footer footer footer footer'
+    ;
+
+}
+.i{
+    border: 1px solid snow;
+    font-size: 30px;
+    font-weight: 600;
+    font-variant-caps:petite-caps;
+    padding: 20px;
+
+}
+.item1{
+    grid-area: header;
+    background-color: black;;
+    color: white;
+}
+.item6{
+    grid-area: content;
+    background-color:purple;
+    color: white;
+}
+.item2{
+    grid-area: menu;
+    background-color: rgb(189, 16, 16);
+    color: white;
+}
+.item3{
+    grid-area: box1;
+    background-color: green;
+    color: white;
+}
+.item4{
+    grid-area: box2;
+    background-color: rgb(141, 158, 109);
+    color: white;
+}
+.item5{
+    grid-area: sidebar;
+    background-color: navy;
+    color: white;
+}
+.item7{
+    grid-area: footer;
+    background-color:rgb(170, 107, 107);
+    color: white;
+}
