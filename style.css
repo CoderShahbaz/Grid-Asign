@@ -29,7 +29,7 @@ body .Grid-Container{
     ;
 
 }
-.grid-item{
+.grid-items{
     border: 1px solid snow;
     font-size: 30px;
     font-weight: 600;
