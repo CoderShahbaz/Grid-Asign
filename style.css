@@ -4,7 +4,7 @@
     margin: 0;
 
 }
-body .container{
+body .Grid-Container{
     display: grid;
     background-color:black;
     width: 100vw;
@@ -29,7 +29,7 @@ body .container{
     ;
 
 }
-.i{
+.grid-items{
     border: 1px solid snow;
     font-size: 30px;
     font-weight: 600;
